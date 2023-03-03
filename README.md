@@ -7,8 +7,7 @@ This is a dinamic website that represents the pepper leaf store!
 You can check the original website project <a href="https://drive.google.com/file/d/1gsAeYMm3Ge6AoOX31mP3N6t0hwssMDyQ/view?usp=sharing">Here</a>. 
 
 ## Screenshot 🎞️
-![screenshot](file:///home/ivan/Documents/Projects/tech%20proof/assets/screenshot-project.png)
-
+![screenshot-project](https://user-images.githubusercontent.com/73128809/222844340-63dc8ee0-3b26-41ff-ab11-477fe7d1a353.png)
 
  
 ##  🛠️ Built With ⚒️
