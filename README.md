@@ -19,7 +19,7 @@ You can check the original website project <a href="https://drive.google.com/fil
  
 ##  💻Live Demo
 
-You can check my project <a href="https://ivaan1992.github.io/pepper_leaf_tech_proof/">Here</a>
+You can check my project <a href="https://main--cheerful-pothos-06cfbf.netlify.app/">Here</a>
 
 
 ## Getting Started 
