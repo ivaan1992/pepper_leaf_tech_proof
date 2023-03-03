@@ -6,76 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Mynerve&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-    <title>Pepperleaf Technical Proof</title>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles.css">
+    <title>Pepper Leaf</title>
 </head>
 <body>
     <div class="content">
-        <header>
-            <nav class="navbar">
-                <a href="#">
-                    <img src="/assets/logo-pepperleaf-dark-3.png" alt="Pepperleaf-logo">
-                </a>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            meal kits
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            recipes
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            why pepperleaf
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            suppliers
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            blog
-                        </a>
-                    </li>
-                </ul>
-                <div class="navbar-info">
-                    <figure class="navbar-phone-icon">
-                        <img class="phone" src="/assets/phone-icon.png" alt="phone-icon">
-                    </figure>
-                    <div class="navbar-questions">
-                        <h4>got questions?</h4>
-                        <p>
-                            <span>03 8824 9838</span>
-                        </p>
-                    </div>
+        <nav class="navbar mobile">
+            <a href="#">
+                <img src="/assets/logo-pepperleaf-dark-3.png" alt="Pepperleaf-logo">
+            </a>
+            <ul class="nav-menu desktop">
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        meal kits
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        recipes
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        why pepperleaf
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        suppliers
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        blog
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <nav class="navbar desktop">
+            <a href="#">
+                <img src="/assets/logo-pepperleaf-dark-3.png" alt="Pepperleaf-logo">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        meal kits
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        recipes
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        why pepperleaf
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        suppliers
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        blog
+                    </a>
+                </li>
+            </ul>
+            <div class="navbar-info">
+                <figure class="navbar-phone-icon">
+                    <img class="phone" src="/assets/phone-icon.png" alt="phone-icon">
+                </figure>
+                <div class="navbar-questions">
+                    <h4>got questions?</h4>
+                    <p>
+                        <span>03 8824 9838</span>
+                    </p>
                 </div>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
-        </header>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
         <main>
-            <section class="section 1">
+            <section class="section">
                 <article class="meal-kits">
                     <div class="meal-kits-text">
                         <h2>everything in one box to <br> cook fresh, healthy, mouth-watering <br> meals in under 20 minutes</h2>
-                        <p class="supermarket-info">
-                            bypass the supermarket queue with pepper leaf meal kits- <br>  full of season ingredients and curated, chef-crafted recipes
+                        <p class="pepperleaf-info"> 
+                            <span>bypass the supermarket queue with pepper leaf meal kits- <br>  full of season ingredients and curated, chef-crafted recipes
+                            </span>
                         </p>
-                        <button class="primary-btn">discover our meal kits</button>
-                        <p class="guarantee">
-                            <span>100% money back guarantee</span>
-                        </p>
+                        <div class="money-btn">
+                            <button class="primary-btn">discover our meal kits</button>
+                            <p class="italic-font">
+                                <span>100% money back guarantee</span>
+                            </p>
+                        </div>
                     </div>
-                    
+                    <div class="space"></div>
                     <div class="meal-kits-sponsors">
                         <p>as seen in</p>
                         <figure class="sponsors">
@@ -91,9 +128,9 @@
                         </figure>
                     </div>
                 </article>
-            </section>
+            </section> 
             <section class="section articles-section">
-                <article class="stressing-article article">
+                <article class="stressing-article">
                     <img src="/assets/spoon-knife.png" alt="spoon-knife">
                     <h2>stop stressing about what's for dinner</h2>
                     <p>How do you find the time to plan, prepare, cook and enjoy complete, professional-chef level food when you work long hours, look after a family...or both? </p>
@@ -101,10 +138,10 @@
                     <p>We wanted to provide a shortcut for people who don't want to take any shortcuts on their dinners.</p>
                     <p>Now, you can skip straight to cooking using our easy-to-follow  recipes and pre-portioned meat, seafood and vegetables.</p>
                 </article>
-                <article class="healthier article">
+                <article class="healthier">
                     <div class="article-info">
                         <figure>
-                            <img class="article-icon" src="/assets/icon-heart.png" alt="icon">
+                            <img src="/assets/icon-heart.png" alt="icon">
                         </figure>
                         <h2 class="article-title">healthier,fresher meals-fast and without fuss</h2>
                         <p>If you've been eating the same few meals on repeat, or caving in to convenience with takeaways...then you need to try Pepper Leaf. </p>
@@ -115,7 +152,7 @@
                         <img src="/assets/steack.png" alt="article-image">
                     </div>
                 </article>
-                <article class="food-kits article">
+                <article class="food-kits">
                     <div class="article-img">
                         <img src="/assets/spagetti.png" alt="article-image">
                     </div>
@@ -129,14 +166,16 @@
                         <p>Working together with these hand picked suppliers, we race produce to you for the shortest time between farm and plate.</p>
                         <p>You won't find a single ingredient that's not of the finest, freshest quality.</p>
                         <p>This is a farm to table home cooking as you've never known it.</p>
+                    </article>
+                    <div class="money-btn">
                         <button class="primary-btn">discover our meal kits</button>
-                        <p class="guarantee">
-                            <span class="money-back">100% money back guarantee</span>
+                        <p class="italic-font">
+                            <span>100% money back guarantee</span>
                         </p>
                     </div>
-                </article>
+                </div>
             </section>
-            <section class="section meal-kit-options">
+            <section class="section meal-kit-options" id="meal-options">
                 <div class="meal-options-text">
                     <h2>what's on your menu?<br>your pepper leaf meal kit options</h2>
                     <p>
@@ -166,10 +205,8 @@
                                 <img src="/assets/icon-dollar.png" alt="icon">
                                 <p>Price start at <b>$63.90/week</b></p>
                             </li>
+                            <button class="primary-btn">view box</button>
                         </ul>
-                        <div class="btn">
-                            <button class="view-box">view box</button>
-                        </div>
                     </div>
                     <div class="meal-card">
                         <div class="box">
@@ -193,10 +230,8 @@
                                 <img src="/assets/icon-dollar.png" alt="icon">
                                 <p>Price start at <b>$63.90/week</b></p>
                             </li>
+                            <button class="primary-btn view-box">view box</button>
                         </ul>
-                        <div class="btn">
-                            <button class="view-box">view box</button>
-                        </div>
                     </div>
                     <div class="meal-card">
                         <div class="box">
@@ -220,10 +255,8 @@
                                 <img src="/assets/icon-dollar.png" alt="icon">
                                 <p>Price start at <b>$85.90/week</b></p>
                             </li>
+                            <button class="primary-btn view-box">view box</button>
                         </ul>
-                        <div class="btn">
-                            <button class="view-box">view box</button>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -242,7 +275,7 @@
                             </div>
                             <div class="white-circle">
                                 <div class="green-circle">
-                                    <p>1</p>
+                                    1
                                 </div>
                             </div>
                             <div class="right"></div>
@@ -252,11 +285,11 @@
                             <div class="left empty"></div>
                             <div class="white-circle">
                                 <div class="green-circle">
-                                    <p>2</p>
+                                    2
                                 </div>
                             </div>
                             <div class="right">
-                                <img src="assets/process-2.png" alt="process-img" />
+                                <img class="process-img" src="assets/process-2.png" alt="process-img" />
                                 <h3 class="title">fresh from our farms</h3>
                                 <p class="text">We put your kits together using our network of farms, delis and specialist cuisine wholesalers.</p>
                             </div>
@@ -270,7 +303,7 @@
                             </div>
                             <div class="white-circle">
                                 <div class="green-circle">
-                                    <p>3</p>
+                                    3
                                 </div>
                             </div>
                             <div class="right"></div>
@@ -280,7 +313,7 @@
                             <div class="left empty"></div>
                             <div class="white-circle">
                                 <div class="green-circle">
-                                    <p>4</p>
+                                    4
                                 </div>
                             </div>
                             <div class="right">
@@ -298,15 +331,15 @@
                             </div>
                             <div class="white-circle">
                                 <div class="green-circle">
-                                    <p>5</p>
+                                    5
                                 </div>
                             </div>
                             <div class="right"></div>
                         </div>
                     </div>
-                    <div class="meal-kits-btn process-btn">
+                    <div class="money-btn">
                         <button class="primary-btn">discover our meal kits</button>
-                        <p class="guarantee">
+                        <p class="italic-font">
                             <span>100% money back guarantee</span>
                         </p>
                     </div>
@@ -325,19 +358,25 @@
                         <h2>the freshest food or it's free</h2>
                     </div>
                 </article>
-                <article class="promise-article article">
+                <article class="promise-article">
                     <p>Cookig with our meal kits removes time and stress from what should be one of life's basic pleasures.</p>
                     <p>When you use Pepper Leaf's 100% independent service, you're getting susteinable,fresh produce of the highest quality. </p>
                     <p>If you have ANY problems with our meal kits, or the ingredients don't live up to your expectations, just contact our term. </p>
                     <p>We'll replace your box FREE or give you a full refund, no questions asked. </p>
-                    <div class="meal-kits-btn">
+                    <div class="money-btn">
                         <button class="primary-btn">discover our meal kits</button>
-                        <p class="guarantee">
+                        <p class="italic-font">
                             <span>100% money back guarantee</span>
                         </p>
                     </div>
                 </article>
             </section>
+            <!-- <div class="money-btn">
+                <button class="primary-btn">discover our meal kits</button>
+                <p class="italic-font">
+                    <span>100% money back guarantee</span>
+                </p>
+            </div> -->
             <section class="section">
                 <article class="recipes-form article">
                     <figure>
@@ -353,14 +392,14 @@
                             <label>
                                 <input id="recipe-name" type="text" placeholder="Full name" name="name">
                                 <div class="error">
-                                    <span>El nombre debe tener mas de 3 caracteres</span>
+                                    <span>Your name must contain at least 3 characters.</span>
                                 </div>
                             </label>
                             <label>
                                 <input id="recipe-email" type="email" placeholder="Email Address" name="email">
                                 <div class="error">
                                     <div class="error">
-                                        <span>Escribe un mail valido</span>
+                                        <span>Your email must be valid.</span>
                                     </div>
                                 </div>
                             </label>
@@ -377,9 +416,13 @@
                 </div>
                 <div class="slider">
                     <div class="principal-recipe-image">
-                        <button type="button" id="prev-btn"><img src="/assets/icon-left.png" alt="icon"></button>
-                        <img id="main-img" src="/assets/recipe-1.jpg" alt="">
-                        <button type="button" id="next-btn"><img src="/assets/icon-right.png" alt="icon"></button>
+                        <div class="main-img">
+                            <div class="prev-next-btns">
+                                <button type="button" id="prev-btn"><img src="/assets/icon-left.png" alt="icon"></button>
+                                <button type="button" id="next-btn"><img src="/assets/icon-right.png" alt="icon"></button>
+                            </div>
+                            <img id="main-img" src="/assets/recipe-1.jpg" alt="">
+                        </div>
                     </div>
                     <div class="preview">
                         <img src="/assets/recipe-1.jpg" alt="">
@@ -402,9 +445,9 @@
                     <div class="guarantee-info">
                         <p>We're so confident in our product, that if our meal kit does not meet your expectations in anyway, we'll completely  refund you.</p>
                         <p>That includes meal quality, variety, taste, or just the general meal kit experience. There's literally zero risk.</p>
-                        <div class="meal-kits-btn">
+                        <div class="money-btn">
                             <button class="primary-btn">discover our meal kits</button>
-                            <p class="guarantee">
+                            <p class="italic-font">
                                 <span>100% money back guarantee</span>
                             </p>
                         </div>
@@ -421,7 +464,7 @@
                 </article>
             </section>
             <section class="section form-contact-section">
-                <article class="article">
+                <article>
                     <h2>still not 100% convinced? <br> that's okay, you can still access free recipes,offers, and information</h2>
                     <p>Want to know more about farm to plate cooking? Great!</p>
                     <p>We're about sharing knowledge as much as we are about delivering fantastic ready-to-cook meals.</p>
@@ -465,12 +508,13 @@
                                 <span>El mensaje debe contener al menos 10 caracteres</span>
                             </div>
                         </label>
-                        <button class="submit primary-btn">Stay in touch</button>
                     </form>
+                    <button class="submit primary-btn">Stay in touch</button>
                 </article>
             </section>
         </main>
     </div>
-    <script defer src="/main.js" type="module"></script>
+
+    <script src="/main.js" type="module"></script>
 </body>
 </html>
