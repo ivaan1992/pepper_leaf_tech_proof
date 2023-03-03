@@ -7,7 +7,7 @@ This is a dinamic website that represents the pepper leaf store!
 You can check the original website project <a href="https://drive.google.com/file/d/1gsAeYMm3Ge6AoOX31mP3N6t0hwssMDyQ/view?usp=sharing">Here</a>. 
 
 ## Screenshot 🎞️
-![Captura de pantalla de 2022-04-15 12-54-21](file:///home/ivan/Documents/Projects/tech%20proof/assets/screenshot-project.png)
+![screenshot](file:///home/ivan/Documents/Projects/tech%20proof/assets/screenshot-project.png)
 
 
  
@@ -19,7 +19,7 @@ You can check the original website project <a href="https://drive.google.com/fil
  
 ##  💻Live Demo
 
-You can check my project <a href="https://main--cheerful-pothos-06cfbf.netlify.app/">Here</a>
+You can check my project <a href="https://ivaan1992.github.io/pepper_leaf_tech_proof/">Here</a>
 
 
 ## Getting Started 
